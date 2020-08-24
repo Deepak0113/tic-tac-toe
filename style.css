@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(50, 53, 59);
+}
+header{
+    background: rgb(253, 253, 251);
+    padding: 20px;
+}
+header h1 {
+    color: #24272E;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.container{
+    padding: 40px;
+}
+.board{
+    top: 50px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(50, 53, 59);
+}
+button{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+.board tr{
+    height: 100px;
+    width: 100px;
+    background-color: azure;
+}
+.board td{
+    height: 164.8px;
+    width: 164.8px;
+    text-align: center;
+    font-size: 70px;
+    cursor: pointer;
+}
+.rad1{
+    border-radius: 10px 0 0 0;
+}
+.rad2{
+    border-radius: 0 10px 0 0;
+}
+.rad4{
+    border-radius: 0 0 10px 0;
+}
+.rad3{
+    border-radius: 0 0 0 10px;
+}
+.red-glow{
+    background-color: rgb(245, 14, 6);
+    box-shadow: 0 0 20px rgb(241, 35, 7);
+    transition: 0.2s;
+}
+.green-glow{
+    background-color: rgb(62, 245, 6);
+    box-shadow: 0 0 20px rgb(93, 241, 7);
+}

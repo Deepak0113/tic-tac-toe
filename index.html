@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <header>
+        <h1>TIC TAC TOE</h1>
+    </header>
+    <div class="container">
+        <button id="btn">RESET</button>
+        <div class="board-container">
+    <table class="board">
+        <tr>
+            <td class="rad1" id='00' onclick="getValue(id)"></td>
+            <td id='01' onclick="getValue(id)"></td>
+            <td class="rad2" id='02' onclick="getValue(id)"></td>
+        </tr>
+        <tr>
+            <td id='10' onclick="getValue(id)"></td>
+            <td id='11' onclick="getValue(id)"></td>
+            <td id='12' onclick="getValue(id)"></td>
+        </tr>
+        <tr>
+            <td class="rad3" id='20' onclick="getValue(id)"></td>
+            <td id='21' onclick="getValue(id)"></td>
+            <td class="rad4" id='22' onclick="getValue(id)"></td>
+        </tr>
+    </table>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
